@@ -10,6 +10,16 @@ namespace XmlFrameWorkShowCase
     {
         static void Main(string[] args)
         {
+            TestWritable testWritable = new TestWritable();
+
+            XmlStream xmlStream = new XmlStream();
+
+            xmlStream.Write(testWritable);
+
+
+
+            Console.WriteLine("Press enter to close...");
+            Console.ReadLine();
         }
     }
 }
