@@ -43,15 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterfaceApproache\GenericXmlStream.cs" />
     <Compile Include="InterfaceApproache\IXmlStreamable.cs" />
     <Compile Include="InterfaceApproache\TestObject.cs" />
     <Compile Include="InterfaceApproache\XmlStream.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AttributeApproache\TestWritable.cs" />
-    <Compile Include="AttributeApproache\Xml.cs" />
-    <Compile Include="AttributeApproache\XmlStreamable.cs" />
-    <Compile Include="AttributeApproache\XmlStream.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
